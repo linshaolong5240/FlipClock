@@ -13,6 +13,13 @@
 		2BA5B6CB24476A86009E1B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA5B6CA24476A86009E1B16 /* Assets.xcassets */; };
 		2BA5B6CE24476A86009E1B16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA5B6CD24476A86009E1B16 /* Preview Assets.xcassets */; };
 		2BA5B6D124476A86009E1B16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA5B6CF24476A86009E1B16 /* LaunchScreen.storyboard */; };
+		2BA5B6E624476B7F009E1B16 /* FlipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B6E424476B7F009E1B16 /* FlipViewModel.swift */; };
+		2BA5B6E724476B7F009E1B16 /* ClockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B6E524476B7F009E1B16 /* ClockViewModel.swift */; };
+		2BA5B6EB24476B8A009E1B16 /* SingleFlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B6E824476B8A009E1B16 /* SingleFlipView.swift */; };
+		2BA5B6EC24476B8A009E1B16 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B6E924476B8A009E1B16 /* FlipView.swift */; };
+		2BA5B6ED24476B8A009E1B16 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B6EA24476B8A009E1B16 /* ClockView.swift */; };
+		2BA5B6F024476F23009E1B16 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B6EF24476F23009E1B16 /* ColorExtension.swift */; };
+		2BB336062448AD04005B5300 /* Gift in Resources */ = {isa = PBXBuildFile; fileRef = 2BB336052448AD03005B5300 /* Gift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		2BA5B6CD24476A86009E1B16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2BA5B6D024476A86009E1B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BA5B6D224476A86009E1B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BA5B6E424476B7F009E1B16 /* FlipViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipViewModel.swift; sourceTree = "<group>"; };
+		2BA5B6E524476B7F009E1B16 /* ClockViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockViewModel.swift; sourceTree = "<group>"; };
+		2BA5B6E824476B8A009E1B16 /* SingleFlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleFlipView.swift; sourceTree = "<group>"; };
+		2BA5B6E924476B8A009E1B16 /* FlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
+		2BA5B6EA24476B8A009E1B16 /* ClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		2BA5B6EF24476F23009E1B16 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		2BB336052448AD03005B5300 /* Gift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,10 @@
 		2BA5B6C324476A83009E1B16 /* FlipClock */ = {
 			isa = PBXGroup;
 			children = (
+				2BB336052448AD03005B5300 /* Gift */,
+				2BA5B6EE24476EDA009E1B16 /* Extensions */,
+				2BA5B6DF24476B0B009E1B16 /* ViewModel */,
+				2BA5B6D824476AE7009E1B16 /* View */,
 				2BA5B6C424476A83009E1B16 /* AppDelegate.swift */,
 				2BA5B6C624476A83009E1B16 /* SceneDelegate.swift */,
 				2BA5B6C824476A83009E1B16 /* ContentView.swift */,
@@ -73,6 +91,33 @@
 				2BA5B6CD24476A86009E1B16 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BA5B6D824476AE7009E1B16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BA5B6EA24476B8A009E1B16 /* ClockView.swift */,
+				2BA5B6E924476B8A009E1B16 /* FlipView.swift */,
+				2BA5B6E824476B8A009E1B16 /* SingleFlipView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2BA5B6DF24476B0B009E1B16 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2BA5B6E524476B7F009E1B16 /* ClockViewModel.swift */,
+				2BA5B6E424476B7F009E1B16 /* FlipViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2BA5B6EE24476EDA009E1B16 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2BA5B6EF24476F23009E1B16 /* ColorExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +180,7 @@
 			files = (
 				2BA5B6D124476A86009E1B16 /* LaunchScreen.storyboard in Resources */,
 				2BA5B6CE24476A86009E1B16 /* Preview Assets.xcassets in Resources */,
+				2BB336062448AD04005B5300 /* Gift in Resources */,
 				2BA5B6CB24476A86009E1B16 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,8 +193,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BA5B6C524476A83009E1B16 /* AppDelegate.swift in Sources */,
+				2BA5B6ED24476B8A009E1B16 /* ClockView.swift in Sources */,
+				2BA5B6EC24476B8A009E1B16 /* FlipView.swift in Sources */,
+				2BA5B6F024476F23009E1B16 /* ColorExtension.swift in Sources */,
+				2BA5B6EB24476B8A009E1B16 /* SingleFlipView.swift in Sources */,
+				2BA5B6E624476B7F009E1B16 /* FlipViewModel.swift in Sources */,
 				2BA5B6C724476A83009E1B16 /* SceneDelegate.swift in Sources */,
 				2BA5B6C924476A83009E1B16 /* ContentView.swift in Sources */,
+				2BA5B6E724476B7F009E1B16 /* ClockViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

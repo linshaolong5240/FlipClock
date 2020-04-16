@@ -9,8 +9,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var  clock: ClockViewModel = ClockViewModel(fontSize: 40, cornerRadius: 4)
+    @Environment(\.verticalSizeClass) var verticalSizeClass: UserInterfaceSizeClass?
+    
     var body: some View {
-        Text("Hello, World!")
+        ZStack {
+            VStack {
+                Text("fontSize: \(clock.fontSize)")
+                Slider(value: $clock.fontSize, in: verticalSizeClass == .regular ? CGFloat(40)...CGFloat(100) : CGFloat(40)...CGFloat(120))
+                Text("cornerRadius: \(clock.cornerRadius)")
+                Slider(value: $clock.cornerRadius, in: CGFloat(0)...CGFloat(50))
+                Spacer()
+            }
+            ClockView(clock)
+        }
     }
 }
 
