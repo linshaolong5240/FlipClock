@@ -19,7 +19,7 @@
 		2BA5B6EC24476B8A009E1B16 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B6E924476B8A009E1B16 /* FlipView.swift */; };
 		2BA5B6ED24476B8A009E1B16 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B6EA24476B8A009E1B16 /* ClockView.swift */; };
 		2BA5B6F024476F23009E1B16 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B6EF24476F23009E1B16 /* ColorExtension.swift */; };
-		2BB336062448AD04005B5300 /* Gift in Resources */ = {isa = PBXBuildFile; fileRef = 2BB336052448AD03005B5300 /* Gift */; };
+		2BB336062448AD04005B5300 /* Gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BB336052448AD03005B5300 /* Gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 		2BA5B6E924476B8A009E1B16 /* FlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
 		2BA5B6EA24476B8A009E1B16 /* ClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
 		2BA5B6EF24476F23009E1B16 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
-		2BB336052448AD03005B5300 /* Gift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gift; sourceTree = SOURCE_ROOT; };
+		2BB336052448AD03005B5300 /* Gif */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = Gif; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 		2BA5B6C324476A83009E1B16 /* FlipClock */ = {
 			isa = PBXGroup;
 			children = (
-				2BB336052448AD03005B5300 /* Gift */,
+				2BB336052448AD03005B5300 /* Gif */,
 				2BA5B6EE24476EDA009E1B16 /* Extensions */,
 				2BA5B6DF24476B0B009E1B16 /* ViewModel */,
 				2BA5B6D824476AE7009E1B16 /* View */,
@@ -180,7 +180,7 @@
 			files = (
 				2BA5B6D124476A86009E1B16 /* LaunchScreen.storyboard in Resources */,
 				2BA5B6CE24476A86009E1B16 /* Preview Assets.xcassets in Resources */,
-				2BB336062448AD04005B5300 /* Gift in Resources */,
+				2BB336062448AD04005B5300 /* Gif in Resources */,
 				2BA5B6CB24476A86009E1B16 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
