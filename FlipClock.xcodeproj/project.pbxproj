@@ -7,41 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BA5B6C524476A83009E1B16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B6C424476A83009E1B16 /* AppDelegate.swift */; };
-		2BA5B6C724476A83009E1B16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B6C624476A83009E1B16 /* SceneDelegate.swift */; };
-		2BA5B6C924476A83009E1B16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B6C824476A83009E1B16 /* ContentView.swift */; };
-		2BA5B6CB24476A86009E1B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA5B6CA24476A86009E1B16 /* Assets.xcassets */; };
-		2BA5B6CE24476A86009E1B16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA5B6CD24476A86009E1B16 /* Preview Assets.xcassets */; };
-		2BA5B6D124476A86009E1B16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA5B6CF24476A86009E1B16 /* LaunchScreen.storyboard */; };
-		2BA5B6E624476B7F009E1B16 /* FlipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B6E424476B7F009E1B16 /* FlipViewModel.swift */; };
-		2BA5B6E724476B7F009E1B16 /* ClockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B6E524476B7F009E1B16 /* ClockViewModel.swift */; };
-		2BA5B6EB24476B8A009E1B16 /* SingleFlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B6E824476B8A009E1B16 /* SingleFlipView.swift */; };
-		2BA5B6EC24476B8A009E1B16 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B6E924476B8A009E1B16 /* FlipView.swift */; };
-		2BA5B6ED24476B8A009E1B16 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B6EA24476B8A009E1B16 /* ClockView.swift */; };
-		2BA5B6F024476F23009E1B16 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B6EF24476F23009E1B16 /* ColorExtension.swift */; };
-		2BB336062448AD04005B5300 /* Gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BB336052448AD03005B5300 /* Gif */; };
+		EFC6F586266781EB004920E6 /* FlipClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F573266781EA004920E6 /* FlipClockApp.swift */; };
+		EFC6F587266781EB004920E6 /* FlipClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F573266781EA004920E6 /* FlipClockApp.swift */; };
+		EFC6F588266781EB004920E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F574266781EA004920E6 /* ContentView.swift */; };
+		EFC6F589266781EB004920E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F574266781EA004920E6 /* ContentView.swift */; };
+		EFC6F58A266781EB004920E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC6F575266781EB004920E6 /* Assets.xcassets */; };
+		EFC6F58B266781EB004920E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC6F575266781EB004920E6 /* Assets.xcassets */; };
+		EFC6F59A26678380004920E6 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F59926678380004920E6 /* ColorExtension.swift */; };
+		EFC6F59B26678380004920E6 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F59926678380004920E6 /* ColorExtension.swift */; };
+		EFC6F5A0266783E2004920E6 /* FlipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F59E266783E2004920E6 /* FlipViewModel.swift */; };
+		EFC6F5A1266783E2004920E6 /* FlipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F59E266783E2004920E6 /* FlipViewModel.swift */; };
+		EFC6F5A2266783E2004920E6 /* ClockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F59F266783E2004920E6 /* ClockViewModel.swift */; };
+		EFC6F5A3266783E2004920E6 /* ClockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F59F266783E2004920E6 /* ClockViewModel.swift */; };
+		EFC6F5A826678421004920E6 /* SingleFlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F5A526678421004920E6 /* SingleFlipView.swift */; };
+		EFC6F5A926678421004920E6 /* SingleFlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F5A526678421004920E6 /* SingleFlipView.swift */; };
+		EFC6F5AA26678421004920E6 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F5A626678421004920E6 /* ClockView.swift */; };
+		EFC6F5AB26678421004920E6 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F5A626678421004920E6 /* ClockView.swift */; };
+		EFC6F5AC26678421004920E6 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F5A726678421004920E6 /* FlipView.swift */; };
+		EFC6F5AD26678421004920E6 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F5A726678421004920E6 /* FlipView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2BA5B6C124476A83009E1B16 /* FlipClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BA5B6C424476A83009E1B16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2BA5B6C624476A83009E1B16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2BA5B6C824476A83009E1B16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2BA5B6CA24476A86009E1B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2BA5B6CD24476A86009E1B16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2BA5B6D024476A86009E1B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2BA5B6D224476A86009E1B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BA5B6E424476B7F009E1B16 /* FlipViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipViewModel.swift; sourceTree = "<group>"; };
-		2BA5B6E524476B7F009E1B16 /* ClockViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockViewModel.swift; sourceTree = "<group>"; };
-		2BA5B6E824476B8A009E1B16 /* SingleFlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleFlipView.swift; sourceTree = "<group>"; };
-		2BA5B6E924476B8A009E1B16 /* FlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
-		2BA5B6EA24476B8A009E1B16 /* ClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
-		2BA5B6EF24476F23009E1B16 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
-		2BB336052448AD03005B5300 /* Gif */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = Gif; sourceTree = SOURCE_ROOT; };
+		EFC6F573266781EA004920E6 /* FlipClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipClockApp.swift; sourceTree = "<group>"; };
+		EFC6F574266781EA004920E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFC6F575266781EB004920E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFC6F57A266781EB004920E6 /* FlipClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC6F57D266781EB004920E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC6F582266781EB004920E6 /* FlipClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC6F584266781EB004920E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC6F585266781EB004920E6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		EFC6F59926678380004920E6 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		EFC6F59E266783E2004920E6 /* FlipViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipViewModel.swift; sourceTree = "<group>"; };
+		EFC6F59F266783E2004920E6 /* ClockViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockViewModel.swift; sourceTree = "<group>"; };
+		EFC6F5A526678421004920E6 /* SingleFlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleFlipView.swift; sourceTree = "<group>"; };
+		EFC6F5A626678421004920E6 /* ClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		EFC6F5A726678421004920E6 /* FlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2BA5B6BE24476A83009E1B16 /* Frameworks */ = {
+		EFC6F577266781EB004920E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC6F57F266781EB004920E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,111 +62,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2BA5B6B824476A83009E1B16 = {
+		EFC6F56D266781EA004920E6 = {
 			isa = PBXGroup;
 			children = (
-				2BA5B6C324476A83009E1B16 /* FlipClock */,
-				2BA5B6C224476A83009E1B16 /* Products */,
+				EFC6F572266781EA004920E6 /* Shared */,
+				EFC6F57C266781EB004920E6 /* iOS */,
+				EFC6F583266781EB004920E6 /* macOS */,
+				EFC6F57B266781EB004920E6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2BA5B6C224476A83009E1B16 /* Products */ = {
+		EFC6F572266781EA004920E6 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				2BA5B6C124476A83009E1B16 /* FlipClock.app */,
+				EFC6F59826678317004920E6 /* Extensions */,
+				EFC6F5A4266783FC004920E6 /* View */,
+				EFC6F59C266783AA004920E6 /* ViewModel */,
+				EFC6F573266781EA004920E6 /* FlipClockApp.swift */,
+				EFC6F574266781EA004920E6 /* ContentView.swift */,
+				EFC6F575266781EB004920E6 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EFC6F57B266781EB004920E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFC6F57A266781EB004920E6 /* FlipClock.app */,
+				EFC6F582266781EB004920E6 /* FlipClock.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2BA5B6C324476A83009E1B16 /* FlipClock */ = {
+		EFC6F57C266781EB004920E6 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				2BB336052448AD03005B5300 /* Gif */,
-				2BA5B6EE24476EDA009E1B16 /* Extensions */,
-				2BA5B6DF24476B0B009E1B16 /* ViewModel */,
-				2BA5B6D824476AE7009E1B16 /* View */,
-				2BA5B6C424476A83009E1B16 /* AppDelegate.swift */,
-				2BA5B6C624476A83009E1B16 /* SceneDelegate.swift */,
-				2BA5B6C824476A83009E1B16 /* ContentView.swift */,
-				2BA5B6CA24476A86009E1B16 /* Assets.xcassets */,
-				2BA5B6CF24476A86009E1B16 /* LaunchScreen.storyboard */,
-				2BA5B6D224476A86009E1B16 /* Info.plist */,
-				2BA5B6CC24476A86009E1B16 /* Preview Content */,
+				EFC6F57D266781EB004920E6 /* Info.plist */,
 			);
-			path = FlipClock;
+			path = iOS;
 			sourceTree = "<group>";
 		};
-		2BA5B6CC24476A86009E1B16 /* Preview Content */ = {
+		EFC6F583266781EB004920E6 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				2BA5B6CD24476A86009E1B16 /* Preview Assets.xcassets */,
+				EFC6F584266781EB004920E6 /* Info.plist */,
+				EFC6F585266781EB004920E6 /* macOS.entitlements */,
 			);
-			path = "Preview Content";
+			path = macOS;
 			sourceTree = "<group>";
 		};
-		2BA5B6D824476AE7009E1B16 /* View */ = {
+		EFC6F59826678317004920E6 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				2BA5B6EA24476B8A009E1B16 /* ClockView.swift */,
-				2BA5B6E924476B8A009E1B16 /* FlipView.swift */,
-				2BA5B6E824476B8A009E1B16 /* SingleFlipView.swift */,
+				EFC6F59926678380004920E6 /* ColorExtension.swift */,
 			);
-			path = View;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
-		2BA5B6DF24476B0B009E1B16 /* ViewModel */ = {
+		EFC6F59C266783AA004920E6 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				2BA5B6E524476B7F009E1B16 /* ClockViewModel.swift */,
-				2BA5B6E424476B7F009E1B16 /* FlipViewModel.swift */,
+				EFC6F59F266783E2004920E6 /* ClockViewModel.swift */,
+				EFC6F59E266783E2004920E6 /* FlipViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		2BA5B6EE24476EDA009E1B16 /* Extensions */ = {
+		EFC6F5A4266783FC004920E6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2BA5B6EF24476F23009E1B16 /* ColorExtension.swift */,
+				EFC6F5A626678421004920E6 /* ClockView.swift */,
+				EFC6F5A726678421004920E6 /* FlipView.swift */,
+				EFC6F5A526678421004920E6 /* SingleFlipView.swift */,
 			);
-			path = Extensions;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2BA5B6C024476A83009E1B16 /* FlipClock */ = {
+		EFC6F579266781EB004920E6 /* FlipClock (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BA5B6D524476A86009E1B16 /* Build configuration list for PBXNativeTarget "FlipClock" */;
+			buildConfigurationList = EFC6F58E266781EB004920E6 /* Build configuration list for PBXNativeTarget "FlipClock (iOS)" */;
 			buildPhases = (
-				2BA5B6BD24476A83009E1B16 /* Sources */,
-				2BA5B6BE24476A83009E1B16 /* Frameworks */,
-				2BA5B6BF24476A83009E1B16 /* Resources */,
+				EFC6F576266781EB004920E6 /* Sources */,
+				EFC6F577266781EB004920E6 /* Frameworks */,
+				EFC6F578266781EB004920E6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FlipClock;
-			productName = FlipClock;
-			productReference = 2BA5B6C124476A83009E1B16 /* FlipClock.app */;
+			name = "FlipClock (iOS)";
+			productName = "FlipClock (iOS)";
+			productReference = EFC6F57A266781EB004920E6 /* FlipClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFC6F581266781EB004920E6 /* FlipClock (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC6F591266781EB004920E6 /* Build configuration list for PBXNativeTarget "FlipClock (macOS)" */;
+			buildPhases = (
+				EFC6F57E266781EB004920E6 /* Sources */,
+				EFC6F57F266781EB004920E6 /* Frameworks */,
+				EFC6F580266781EB004920E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlipClock (macOS)";
+			productName = "FlipClock (macOS)";
+			productReference = EFC6F582266781EB004920E6 /* FlipClock.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2BA5B6B924476A83009E1B16 /* Project object */ = {
+		EFC6F56E266781EA004920E6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1140;
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
-				ORGANIZATIONNAME = teeloong;
 				TargetAttributes = {
-					2BA5B6C024476A83009E1B16 = {
-						CreatedOnToolsVersion = 11.4;
+					EFC6F579266781EB004920E6 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					EFC6F581266781EB004920E6 = {
+						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
-			buildConfigurationList = 2BA5B6BC24476A83009E1B16 /* Build configuration list for PBXProject "FlipClock" */;
+			buildConfigurationList = EFC6F571266781EA004920E6 /* Build configuration list for PBXProject "FlipClock" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -163,62 +200,71 @@
 				en,
 				Base,
 			);
-			mainGroup = 2BA5B6B824476A83009E1B16;
-			productRefGroup = 2BA5B6C224476A83009E1B16 /* Products */;
+			mainGroup = EFC6F56D266781EA004920E6;
+			productRefGroup = EFC6F57B266781EB004920E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2BA5B6C024476A83009E1B16 /* FlipClock */,
+				EFC6F579266781EB004920E6 /* FlipClock (iOS) */,
+				EFC6F581266781EB004920E6 /* FlipClock (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2BA5B6BF24476A83009E1B16 /* Resources */ = {
+		EFC6F578266781EB004920E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BA5B6D124476A86009E1B16 /* LaunchScreen.storyboard in Resources */,
-				2BA5B6CE24476A86009E1B16 /* Preview Assets.xcassets in Resources */,
-				2BB336062448AD04005B5300 /* Gif in Resources */,
-				2BA5B6CB24476A86009E1B16 /* Assets.xcassets in Resources */,
+				EFC6F58A266781EB004920E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC6F580266781EB004920E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC6F58B266781EB004920E6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2BA5B6BD24476A83009E1B16 /* Sources */ = {
+		EFC6F576266781EB004920E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BA5B6C524476A83009E1B16 /* AppDelegate.swift in Sources */,
-				2BA5B6ED24476B8A009E1B16 /* ClockView.swift in Sources */,
-				2BA5B6EC24476B8A009E1B16 /* FlipView.swift in Sources */,
-				2BA5B6F024476F23009E1B16 /* ColorExtension.swift in Sources */,
-				2BA5B6EB24476B8A009E1B16 /* SingleFlipView.swift in Sources */,
-				2BA5B6E624476B7F009E1B16 /* FlipViewModel.swift in Sources */,
-				2BA5B6C724476A83009E1B16 /* SceneDelegate.swift in Sources */,
-				2BA5B6C924476A83009E1B16 /* ContentView.swift in Sources */,
-				2BA5B6E724476B7F009E1B16 /* ClockViewModel.swift in Sources */,
+				EFC6F59A26678380004920E6 /* ColorExtension.swift in Sources */,
+				EFC6F5A826678421004920E6 /* SingleFlipView.swift in Sources */,
+				EFC6F5A0266783E2004920E6 /* FlipViewModel.swift in Sources */,
+				EFC6F588266781EB004920E6 /* ContentView.swift in Sources */,
+				EFC6F5AA26678421004920E6 /* ClockView.swift in Sources */,
+				EFC6F586266781EB004920E6 /* FlipClockApp.swift in Sources */,
+				EFC6F5A2266783E2004920E6 /* ClockViewModel.swift in Sources */,
+				EFC6F5AC26678421004920E6 /* FlipView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC6F57E266781EB004920E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC6F59B26678380004920E6 /* ColorExtension.swift in Sources */,
+				EFC6F5A926678421004920E6 /* SingleFlipView.swift in Sources */,
+				EFC6F5A1266783E2004920E6 /* FlipViewModel.swift in Sources */,
+				EFC6F589266781EB004920E6 /* ContentView.swift in Sources */,
+				EFC6F5AB26678421004920E6 /* ClockView.swift in Sources */,
+				EFC6F587266781EB004920E6 /* FlipClockApp.swift in Sources */,
+				EFC6F5A3266783E2004920E6 /* ClockViewModel.swift in Sources */,
+				EFC6F5AD26678421004920E6 /* FlipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		2BA5B6CF24476A86009E1B16 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2BA5B6D024476A86009E1B16 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		2BA5B6D324476A86009E1B16 /* Debug */ = {
+		EFC6F58C266781EB004920E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -269,17 +315,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		2BA5B6D424476A86009E1B16 /* Release */ = {
+		EFC6F58D266781EB004920E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -324,80 +368,137 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		2BA5B6D624476A86009E1B16 /* Debug */ = {
+		EFC6F58F266781EB004920E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"FlipClock/Preview Content\"";
 				DEVELOPMENT_TEAM = D6NGHAR2FG;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FlipClock/Info.plist;
+				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.teeloong.FlipClock;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teenloong.FlipClock;
+				PRODUCT_NAME = FlipClock;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		2BA5B6D724476A86009E1B16 /* Release */ = {
+		EFC6F590266781EB004920E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"FlipClock/Preview Content\"";
 				DEVELOPMENT_TEAM = D6NGHAR2FG;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FlipClock/Info.plist;
+				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.teeloong.FlipClock;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teenloong.FlipClock;
+				PRODUCT_NAME = FlipClock;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFC6F592266781EB004920E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D6NGHAR2FG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teenloong.FlipClock;
+				PRODUCT_NAME = FlipClock;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFC6F593266781EB004920E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D6NGHAR2FG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teenloong.FlipClock;
+				PRODUCT_NAME = FlipClock;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BA5B6BC24476A83009E1B16 /* Build configuration list for PBXProject "FlipClock" */ = {
+		EFC6F571266781EA004920E6 /* Build configuration list for PBXProject "FlipClock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2BA5B6D324476A86009E1B16 /* Debug */,
-				2BA5B6D424476A86009E1B16 /* Release */,
+				EFC6F58C266781EB004920E6 /* Debug */,
+				EFC6F58D266781EB004920E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2BA5B6D524476A86009E1B16 /* Build configuration list for PBXNativeTarget "FlipClock" */ = {
+		EFC6F58E266781EB004920E6 /* Build configuration list for PBXNativeTarget "FlipClock (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2BA5B6D624476A86009E1B16 /* Debug */,
-				2BA5B6D724476A86009E1B16 /* Release */,
+				EFC6F58F266781EB004920E6 /* Debug */,
+				EFC6F590266781EB004920E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC6F591266781EB004920E6 /* Build configuration list for PBXNativeTarget "FlipClock (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC6F592266781EB004920E6 /* Debug */,
+				EFC6F593266781EB004920E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2BA5B6B924476A83009E1B16 /* Project object */;
+	rootObject = EFC6F56E266781EA004920E6 /* Project object */;
 }

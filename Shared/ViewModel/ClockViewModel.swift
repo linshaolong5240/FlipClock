@@ -25,6 +25,7 @@ class ClockViewModel: ObservableObject {
 
     private let dateFormater: DateFormatter
     private var cancellable = AnyCancellable({})
+    
     init(fontSize: CGFloat, cornerRadius: CGFloat = 4) {
         self.fontSize = fontSize
         self.cornerRadius = cornerRadius
@@ -34,6 +35,7 @@ class ClockViewModel: ObservableObject {
         dateFormater.dateFormat = "HHmmss"
         setTimer()
     }
+    
     func setTimer() {
         cancellable = Timer.publish(every: 1, on: .main, in: .default)
             .autoconnect()
@@ -42,6 +44,7 @@ class ClockViewModel: ObservableObject {
                 self?.setFlipViewModel(time: $0)
             }
     }
+    
     func setFlipViewModel(time: String) {
         zip(time, filpViewModels).forEach { (char, viewModel) in
             viewModel.updateValue(String(char))
