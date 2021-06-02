@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF02AFFE26679355009378A2 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF02AFFD26679355009378A2 /* WidgetKit.framework */; };
+		EF02B00026679355009378A2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF02AFFF26679355009378A2 /* SwiftUI.framework */; };
+		EF02B00326679355009378A2 /* ClockWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02B00226679355009378A2 /* ClockWidget.swift */; };
+		EF02B00526679355009378A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF02B00426679355009378A2 /* Assets.xcassets */; };
+		EF02B00926679355009378A2 /* ClockWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EF02AFFB26679355009378A2 /* ClockWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EF02B0152667989C009378A2 /* LetsGoDigital.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF02B0142667989C009378A2 /* LetsGoDigital.ttf */; };
 		EFC6F586266781EB004920E6 /* FlipClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F573266781EA004920E6 /* FlipClockApp.swift */; };
 		EFC6F587266781EB004920E6 /* FlipClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F573266781EA004920E6 /* FlipClockApp.swift */; };
 		EFC6F588266781EB004920E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F574266781EA004920E6 /* ContentView.swift */; };
@@ -27,7 +33,38 @@
 		EFC6F5AD26678421004920E6 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F5A726678421004920E6 /* FlipView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		EF02B00726679355009378A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC6F56E266781EA004920E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF02AFFA26679355009378A2;
+			remoteInfo = ClockWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF02B00A26679355009378A2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EF02B00926679355009378A2 /* ClockWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		EF02AFFB26679355009378A2 /* ClockWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ClockWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF02AFFD26679355009378A2 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		EF02AFFF26679355009378A2 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		EF02B00226679355009378A2 /* ClockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockWidget.swift; sourceTree = "<group>"; };
+		EF02B00426679355009378A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF02B00626679355009378A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF02B0142667989C009378A2 /* LetsGoDigital.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LetsGoDigital.ttf; sourceTree = "<group>"; };
 		EFC6F573266781EA004920E6 /* FlipClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipClockApp.swift; sourceTree = "<group>"; };
 		EFC6F574266781EA004920E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFC6F575266781EB004920E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,6 +82,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EF02AFF826679355009378A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF02B00026679355009378A2 /* SwiftUI.framework in Frameworks */,
+				EF02AFFE26679355009378A2 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFC6F577266781EB004920E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,12 +108,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF02AFFC26679355009378A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF02AFFD26679355009378A2 /* WidgetKit.framework */,
+				EF02AFFF26679355009378A2 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF02B00126679355009378A2 /* ClockWidget */ = {
+			isa = PBXGroup;
+			children = (
+				EF02B0142667989C009378A2 /* LetsGoDigital.ttf */,
+				EF02B00226679355009378A2 /* ClockWidget.swift */,
+				EF02B00426679355009378A2 /* Assets.xcassets */,
+				EF02B00626679355009378A2 /* Info.plist */,
+			);
+			path = ClockWidget;
+			sourceTree = "<group>";
+		};
 		EFC6F56D266781EA004920E6 = {
 			isa = PBXGroup;
 			children = (
 				EFC6F572266781EA004920E6 /* Shared */,
 				EFC6F57C266781EB004920E6 /* iOS */,
 				EFC6F583266781EB004920E6 /* macOS */,
+				EF02B00126679355009378A2 /* ClockWidget */,
+				EF02AFFC26679355009378A2 /* Frameworks */,
 				EFC6F57B266781EB004920E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +158,7 @@
 			children = (
 				EFC6F57A266781EB004920E6 /* FlipClock.app */,
 				EFC6F582266781EB004920E6 /* FlipClock.app */,
+				EF02AFFB26679355009378A2 /* ClockWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,6 +210,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EF02AFFA26679355009378A2 /* ClockWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF02B00D26679355009378A2 /* Build configuration list for PBXNativeTarget "ClockWidgetExtension" */;
+			buildPhases = (
+				EF02AFF726679355009378A2 /* Sources */,
+				EF02AFF826679355009378A2 /* Frameworks */,
+				EF02AFF926679355009378A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClockWidgetExtension;
+			productName = ClockWidgetExtension;
+			productReference = EF02AFFB26679355009378A2 /* ClockWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		EFC6F579266781EB004920E6 /* FlipClock (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFC6F58E266781EB004920E6 /* Build configuration list for PBXNativeTarget "FlipClock (iOS)" */;
@@ -148,10 +234,12 @@
 				EFC6F576266781EB004920E6 /* Sources */,
 				EFC6F577266781EB004920E6 /* Frameworks */,
 				EFC6F578266781EB004920E6 /* Resources */,
+				EF02B00A26679355009378A2 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EF02B00826679355009378A2 /* PBXTargetDependency */,
 			);
 			name = "FlipClock (iOS)";
 			productName = "FlipClock (iOS)";
@@ -184,6 +272,9 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					EF02AFFA26679355009378A2 = {
+						CreatedOnToolsVersion = 12.5;
+					};
 					EFC6F579266781EB004920E6 = {
 						CreatedOnToolsVersion = 12.5;
 					};
@@ -207,11 +298,21 @@
 			targets = (
 				EFC6F579266781EB004920E6 /* FlipClock (iOS) */,
 				EFC6F581266781EB004920E6 /* FlipClock (macOS) */,
+				EF02AFFA26679355009378A2 /* ClockWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EF02AFF926679355009378A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF02B00526679355009378A2 /* Assets.xcassets in Resources */,
+				EF02B0152667989C009378A2 /* LetsGoDigital.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFC6F578266781EB004920E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -231,6 +332,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EF02AFF726679355009378A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF02B00326679355009378A2 /* ClockWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFC6F576266781EB004920E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,7 +372,62 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		EF02B00826679355009378A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF02AFFA26679355009378A2 /* ClockWidgetExtension */;
+			targetProxy = EF02B00726679355009378A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		EF02B00B26679355009378A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6NGHAR2FG;
+				INFOPLIST_FILE = ClockWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teenloong.FlipClock.ClockWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF02B00C26679355009378A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6NGHAR2FG;
+				INFOPLIST_FILE = ClockWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teenloong.FlipClock.ClockWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		EFC6F58C266781EB004920E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -378,6 +542,7 @@
 		EFC6F58F266781EB004920E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -400,6 +565,7 @@
 		EFC6F590266781EB004920E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +637,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EF02B00D26679355009378A2 /* Build configuration list for PBXNativeTarget "ClockWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF02B00B26679355009378A2 /* Debug */,
+				EF02B00C26679355009378A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EFC6F571266781EA004920E6 /* Build configuration list for PBXProject "FlipClock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
