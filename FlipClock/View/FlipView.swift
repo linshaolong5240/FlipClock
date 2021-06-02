@@ -27,7 +27,7 @@ struct FlipView: View {
                                    flipType: .top,
                                    fontSize: viewModel.flipFontSize,
                                    cornerRadius: viewModel.flipCornerRadius)
-                        .rotation3DEffect(Angle(degrees: viewModel.animateTop ? -90 : .zero), axis: (x: 1, y: 0.0, z: 0.0), anchor: .bottom, perspective: 0.5)
+                        .rotation3DEffect(Angle(degrees: viewModel.animateTop ? -89.99 : .zero), axis: (x: 1, y: 0.0, z: 0.0), anchor: .bottom, perspective: 0.5)
                 }
                 ZStack {
                     SingleFlipView(value: viewModel.oldValue ?? "",
@@ -38,7 +38,7 @@ struct FlipView: View {
                                    flipType: .bottom,
                                    fontSize: viewModel.flipFontSize,
                                    cornerRadius: viewModel.flipCornerRadius)
-                        .rotation3DEffect(Angle(degrees: viewModel.animateBottom ? .zero : 90), axis: (x: 1, y: 0.0, z: 0.0), anchor: .top,  perspective: 0.5)
+                        .rotation3DEffect(Angle(degrees: viewModel.animateBottom ? .zero : 89.99), axis: (x: 1, y: 0.0, z: 0.0), anchor: .top,  perspective: 0.5)
                 }
             }
             Color.flipSparatorColor.frame(height: 1)
