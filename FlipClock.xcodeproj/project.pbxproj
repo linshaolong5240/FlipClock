@@ -12,7 +12,8 @@
 		EF02B00326679355009378A2 /* ClockWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02B00226679355009378A2 /* ClockWidget.swift */; };
 		EF02B00526679355009378A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF02B00426679355009378A2 /* Assets.xcassets */; };
 		EF02B00926679355009378A2 /* ClockWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EF02AFFB26679355009378A2 /* ClockWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		EF02B0152667989C009378A2 /* LetsGoDigital.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF02B0142667989C009378A2 /* LetsGoDigital.ttf */; };
+		EF5EE8212668C965006720C5 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5EE8202668C965006720C5 /* Date+Extension.swift */; };
+		EF5EE8232668D595006720C5 /* LESLIE.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF5EE8222668D595006720C5 /* LESLIE.ttf */; };
 		EFC6F586266781EB004920E6 /* FlipClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F573266781EA004920E6 /* FlipClockApp.swift */; };
 		EFC6F587266781EB004920E6 /* FlipClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F573266781EA004920E6 /* FlipClockApp.swift */; };
 		EFC6F588266781EB004920E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F574266781EA004920E6 /* ContentView.swift */; };
@@ -64,7 +65,8 @@
 		EF02B00226679355009378A2 /* ClockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockWidget.swift; sourceTree = "<group>"; };
 		EF02B00426679355009378A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF02B00626679355009378A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF02B0142667989C009378A2 /* LetsGoDigital.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LetsGoDigital.ttf; sourceTree = "<group>"; };
+		EF5EE8202668C965006720C5 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		EF5EE8222668D595006720C5 /* LESLIE.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LESLIE.ttf; sourceTree = "<group>"; };
 		EFC6F573266781EA004920E6 /* FlipClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipClockApp.swift; sourceTree = "<group>"; };
 		EFC6F574266781EA004920E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFC6F575266781EB004920E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -120,10 +122,11 @@
 		EF02B00126679355009378A2 /* ClockWidget */ = {
 			isa = PBXGroup;
 			children = (
-				EF02B0142667989C009378A2 /* LetsGoDigital.ttf */,
+				EF5EE8222668D595006720C5 /* LESLIE.ttf */,
 				EF02B00226679355009378A2 /* ClockWidget.swift */,
 				EF02B00426679355009378A2 /* Assets.xcassets */,
 				EF02B00626679355009378A2 /* Info.plist */,
+				EF5EE8202668C965006720C5 /* Date+Extension.swift */,
 			);
 			path = ClockWidget;
 			sourceTree = "<group>";
@@ -308,8 +311,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF5EE8232668D595006720C5 /* LESLIE.ttf in Resources */,
 				EF02B00526679355009378A2 /* Assets.xcassets in Resources */,
-				EF02B0152667989C009378A2 /* LetsGoDigital.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF02B00326679355009378A2 /* ClockWidget.swift in Sources */,
+				EF5EE8212668C965006720C5 /* Date+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
