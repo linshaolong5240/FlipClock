@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var  clock: FlipClockViewModel = FlipClockViewModel(font: .systemFont(ofSize: 60, weight: .heavy), cornerRadius: 20)
+    @StateObject var  clock: FCFlipClockViewModel = FCFlipClockViewModel(font: .systemFont(ofSize: 60, weight: .heavy), cornerRadius: 20)
     
     var body: some View {
-        FlipClockView(viewModel: clock)
+        FCFlipClockView(viewModel: clock)
     }
 }
 

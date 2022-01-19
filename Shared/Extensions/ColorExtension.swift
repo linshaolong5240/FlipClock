@@ -9,6 +9,9 @@
 import SwiftUI
 
 extension Color {
-    static let singleFlipBackground: Color = Color("single_flip_background_color")
-    static let singleFlipForeground: Color = Color("single_flip_foreground_color")
+    static let background: Color = Color("fc_background_color")
+    static let singleFlipBackground: Color = Color("fc_single_flip_background_color")
+    static let singleFlipForeground: Color = Color("fc_single_flip_foreground_color")
+    static let singleFlipSparatorBottom: Color = Color("fc_single_flip_sparator_bottom_color")
+    static let singleFlipSparatorTop: Color = Color("fc_single_flip_sparator_top_color")
 }

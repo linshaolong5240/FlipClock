@@ -1,5 +1,5 @@
 //
-//  FlipViewModel.swift
+//  FCFlipViewModel.swift
 //  FlipClock
 //
 //  Created by 林少龙 on 2020/4/15.
@@ -8,13 +8,13 @@
 
 import SwiftUI
 
-class FlipViewModel: ObservableObject, Identifiable {
+class FCFlipViewModel: ObservableObject, Identifiable {
     @Published var font: UIFont
     
-    @Published var oldValueTopConfiguration: FCWSingleFlipConfiguration
-    @Published var oldValueBottomConfiguration: FCWSingleFlipConfiguration
-    @Published var newValueTopConfiguration: FCWSingleFlipConfiguration
-    @Published var newValueBottomConfiguration: FCWSingleFlipConfiguration
+    @Published var oldValueTopConfiguration: FCSingleFlipConfiguration
+    @Published var oldValueBottomConfiguration: FCSingleFlipConfiguration
+    @Published var newValueTopConfiguration: FCSingleFlipConfiguration
+    @Published var newValueBottomConfiguration: FCSingleFlipConfiguration
 
     @Published var animateTop: Bool = false
     @Published var animateBottom: Bool = false

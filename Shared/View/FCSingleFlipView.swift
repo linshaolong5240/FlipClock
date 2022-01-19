@@ -1,5 +1,5 @@
 //
-//  SingleFlipView.swift
+//  FCSingleFlipView.swift
 //  FlipClock
 //
 //  Created by 林少龙 on 2020/4/15.
@@ -8,12 +8,12 @@
 
 import SwiftUI
 
-enum FCWFlipType {
+enum FCFlipType {
     case top
     case bottom
 }
 
-extension FCWFlipType {
+extension FCFlipType {
     var padding: Edge.Set {
         switch self {
         case .top:
@@ -44,18 +44,18 @@ extension FCWFlipType {
     var sparatorColor: Color {
         switch self {
         case .top:
-            return Color.black.opacity(0.33)
+            return Color.singleFlipSparatorTop
         case .bottom:
-            return Color.white.opacity(0.33)
+            return Color.singleFlipSparatorBottom
         }
     }
 
 }
 
-struct FCWSingleFlipConfiguration {
+struct FCSingleFlipConfiguration {
 
     var value: String
-    var type: FCWFlipType
+    var type: FCFlipType
     
     var font: Font
     var flipHeight: CGFloat
@@ -64,7 +64,7 @@ struct FCWSingleFlipConfiguration {
     var singleFlipHeight: CGFloat
     var flipCornerRadius: CGFloat
     
-    init(value: String, type: FCWFlipType, font: UIFont, cornerRadius: CGFloat) {
+    init(value: String, type: FCFlipType, font: UIFont, cornerRadius: CGFloat) {
         self.value = value
         self.type = type
         self.font = .custom(font.fontName, size: font.pointSize).monospacedDigit()
@@ -76,17 +76,15 @@ struct FCWSingleFlipConfiguration {
     }
 }
 
-struct SingleFlipView: View {
-    @Environment(\.colorScheme) private var colorScheme
-    
-    let configuration: FCWSingleFlipConfiguration
+struct FCSingleFlipView: View {
+    let configuration: FCSingleFlipConfiguration
     
     var body: some View {
         Text(configuration.value)
             .font(configuration.font)
             .frame(width: configuration.flipWidth, height: configuration.flipHeight, alignment: .center)
             .foregroundColor(.singleFlipForeground)
-            .background(getBackground(colorScheme: colorScheme))
+            .background(Color.singleFlipBackground)
             .cornerRadius(configuration.flipCornerRadius)
             .frame(width: configuration.singleFlipWidth, height: configuration.singleFlipHeight, alignment: configuration.type.alignment)
             .clipped()
@@ -101,24 +99,20 @@ struct SingleFlipView: View {
                 }
             )
     }
-    
-    func getBackground(colorScheme: ColorScheme) -> some View {
-        colorScheme == .light ? Color.black : Color.white
-    }
 }
 
-struct SingleFlipView_Previews: PreviewProvider {
+struct FCSingleFlipView_Previews: PreviewProvider {
     static var previews: some View {
-        let config = FCWSingleFlipConfiguration(value: "6", type: .top, font: .systemFont(ofSize: 200, weight: .heavy), cornerRadius: 20)
-        let config2 = FCWSingleFlipConfiguration(value: "6", type: .bottom, font: .systemFont(ofSize: 200, weight: .heavy), cornerRadius: 20)
+        let config = FCSingleFlipConfiguration(value: "6", type: .top, font: .systemFont(ofSize: 200, weight: .heavy), cornerRadius: 20)
+        let config2 = FCSingleFlipConfiguration(value: "6", type: .bottom, font: .systemFont(ofSize: 200, weight: .heavy), cornerRadius: 20)
         VStack(spacing: 0) {
-            SingleFlipView(configuration: config)
-            SingleFlipView(configuration: config2)
+            FCSingleFlipView(configuration: config)
+            FCSingleFlipView(configuration: config2)
         }
         .preferredColorScheme(.light)
         VStack(spacing: 0) {
-            SingleFlipView(configuration: config)
-            SingleFlipView(configuration: config2)
+            FCSingleFlipView(configuration: config)
+            FCSingleFlipView(configuration: config2)
         }
         .preferredColorScheme(.dark)
     }

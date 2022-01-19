@@ -1,5 +1,5 @@
 //
-//  FlipClockViewModel.swift
+//  FCFlipClockViewModel.swift
 //  FlipClock
 //
 //  Created by 林少龙 on 2020/4/15.
@@ -7,19 +7,19 @@
 //
 
 import Foundation
-import Combine
 import SwiftUI
+import Combine
 
-class FlipClockViewModel: ObservableObject {
-    @Published var filpViewModels: [FlipViewModel]
+class FCFlipClockViewModel: ObservableObject {
+    @Published var filpViewModels: [FCFlipViewModel]
     @Published var font: UIFont {
         didSet {
-            filpViewModels = (0...5).map({_ in FlipViewModel(font: font, cornerRadius: cornerRadius)})
+            filpViewModels = (0...5).map({_ in FCFlipViewModel(font: font, cornerRadius: cornerRadius)})
         }
     }
     @Published var cornerRadius: CGFloat {
         didSet {
-            filpViewModels = (0...5).map({_ in FlipViewModel(font: font, cornerRadius: cornerRadius)})
+            filpViewModels = (0...5).map({_ in FCFlipViewModel(font: font, cornerRadius: cornerRadius)})
         }
     }
 
@@ -29,7 +29,7 @@ class FlipClockViewModel: ObservableObject {
     init(font: UIFont, cornerRadius: CGFloat) {
         self.font = font
         self.cornerRadius = cornerRadius
-        self.filpViewModels = (0...5).map({_ in FlipViewModel(font: font, cornerRadius: cornerRadius)})
+        self.filpViewModels = (0...5).map({_ in FCFlipViewModel(font: font, cornerRadius: cornerRadius)})
         dateFormater = DateFormatter()
         dateFormater.dateFormat = "HHmmss"
         setFlipViewModel(time: dateFormater.string(from: Date()))
