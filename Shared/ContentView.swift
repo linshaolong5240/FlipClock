@@ -8,17 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var  clock: ClockViewModel = ClockViewModel(fontSize: 40, cornerRadius: 4)
+    @StateObject var  clock: FlipClockViewModel = FlipClockViewModel(font: .systemFont(ofSize: 60, weight: .heavy), cornerRadius: 20)
     
     var body: some View {
-        VStack {
-            Text("fontSize: \(clock.fontSize)")
-            Slider(value: $clock.fontSize, in: CGFloat(40)...CGFloat(100))
-            Text("cornerRadius: \(clock.cornerRadius)")
-            Slider(value: $clock.cornerRadius, in: CGFloat(0)...CGFloat(50))
-        }
-        ClockView(clock)
-        Spacer()
+        FlipClockView(viewModel: clock)
     }
 }
 

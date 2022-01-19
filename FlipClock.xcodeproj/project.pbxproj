@@ -24,12 +24,12 @@
 		EFC6F59B26678380004920E6 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F59926678380004920E6 /* ColorExtension.swift */; };
 		EFC6F5A0266783E2004920E6 /* FlipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F59E266783E2004920E6 /* FlipViewModel.swift */; };
 		EFC6F5A1266783E2004920E6 /* FlipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F59E266783E2004920E6 /* FlipViewModel.swift */; };
-		EFC6F5A2266783E2004920E6 /* ClockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F59F266783E2004920E6 /* ClockViewModel.swift */; };
-		EFC6F5A3266783E2004920E6 /* ClockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F59F266783E2004920E6 /* ClockViewModel.swift */; };
+		EFC6F5A2266783E2004920E6 /* FlipClockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F59F266783E2004920E6 /* FlipClockViewModel.swift */; };
+		EFC6F5A3266783E2004920E6 /* FlipClockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F59F266783E2004920E6 /* FlipClockViewModel.swift */; };
 		EFC6F5A826678421004920E6 /* SingleFlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F5A526678421004920E6 /* SingleFlipView.swift */; };
 		EFC6F5A926678421004920E6 /* SingleFlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F5A526678421004920E6 /* SingleFlipView.swift */; };
-		EFC6F5AA26678421004920E6 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F5A626678421004920E6 /* ClockView.swift */; };
-		EFC6F5AB26678421004920E6 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F5A626678421004920E6 /* ClockView.swift */; };
+		EFC6F5AA26678421004920E6 /* FlipClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F5A626678421004920E6 /* FlipClockView.swift */; };
+		EFC6F5AB26678421004920E6 /* FlipClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F5A626678421004920E6 /* FlipClockView.swift */; };
 		EFC6F5AC26678421004920E6 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F5A726678421004920E6 /* FlipView.swift */; };
 		EFC6F5AD26678421004920E6 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F5A726678421004920E6 /* FlipView.swift */; };
 /* End PBXBuildFile section */
@@ -77,9 +77,9 @@
 		EFC6F585266781EB004920E6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		EFC6F59926678380004920E6 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		EFC6F59E266783E2004920E6 /* FlipViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipViewModel.swift; sourceTree = "<group>"; };
-		EFC6F59F266783E2004920E6 /* ClockViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockViewModel.swift; sourceTree = "<group>"; };
+		EFC6F59F266783E2004920E6 /* FlipClockViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipClockViewModel.swift; sourceTree = "<group>"; };
 		EFC6F5A526678421004920E6 /* SingleFlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleFlipView.swift; sourceTree = "<group>"; };
-		EFC6F5A626678421004920E6 /* ClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		EFC6F5A626678421004920E6 /* FlipClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipClockView.swift; sourceTree = "<group>"; };
 		EFC6F5A726678421004920E6 /* FlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -194,7 +194,7 @@
 		EFC6F59C266783AA004920E6 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				EFC6F59F266783E2004920E6 /* ClockViewModel.swift */,
+				EFC6F59F266783E2004920E6 /* FlipClockViewModel.swift */,
 				EFC6F59E266783E2004920E6 /* FlipViewModel.swift */,
 			);
 			path = ViewModel;
@@ -203,7 +203,7 @@
 		EFC6F5A4266783FC004920E6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				EFC6F5A626678421004920E6 /* ClockView.swift */,
+				EFC6F5A626678421004920E6 /* FlipClockView.swift */,
 				EFC6F5A726678421004920E6 /* FlipView.swift */,
 				EFC6F5A526678421004920E6 /* SingleFlipView.swift */,
 			);
@@ -352,9 +352,9 @@
 				EFC6F5A826678421004920E6 /* SingleFlipView.swift in Sources */,
 				EFC6F5A0266783E2004920E6 /* FlipViewModel.swift in Sources */,
 				EFC6F588266781EB004920E6 /* ContentView.swift in Sources */,
-				EFC6F5AA26678421004920E6 /* ClockView.swift in Sources */,
+				EFC6F5AA26678421004920E6 /* FlipClockView.swift in Sources */,
 				EFC6F586266781EB004920E6 /* FlipClockApp.swift in Sources */,
-				EFC6F5A2266783E2004920E6 /* ClockViewModel.swift in Sources */,
+				EFC6F5A2266783E2004920E6 /* FlipClockViewModel.swift in Sources */,
 				EFC6F5AC26678421004920E6 /* FlipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,9 +367,9 @@
 				EFC6F5A926678421004920E6 /* SingleFlipView.swift in Sources */,
 				EFC6F5A1266783E2004920E6 /* FlipViewModel.swift in Sources */,
 				EFC6F589266781EB004920E6 /* ContentView.swift in Sources */,
-				EFC6F5AB26678421004920E6 /* ClockView.swift in Sources */,
+				EFC6F5AB26678421004920E6 /* FlipClockView.swift in Sources */,
 				EFC6F587266781EB004920E6 /* FlipClockApp.swift in Sources */,
-				EFC6F5A3266783E2004920E6 /* ClockViewModel.swift in Sources */,
+				EFC6F5A3266783E2004920E6 /* FlipClockViewModel.swift in Sources */,
 				EFC6F5AD26678421004920E6 /* FlipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
