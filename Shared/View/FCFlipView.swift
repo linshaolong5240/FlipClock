@@ -29,11 +29,14 @@ struct FCFlipView: View {
 struct FCFlipView_Previews: PreviewProvider {
     static var previews: some View {
         let vm = FCFlipViewModel(oldValue: "3", font: .systemFont(ofSize: 120, weight: .bold), cornerRadius: 20)
-        FCFlipView(viewModel: vm)
-            .onAppear {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                    vm.updateValue("4")
-                }
+        ZStack {
+            Color.background
+            FCFlipView(viewModel: vm)
+                .onAppear {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                        vm.updateValue("4")
+                    }
             }
+        }
     }
 }

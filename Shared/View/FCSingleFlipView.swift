@@ -105,14 +105,20 @@ struct FCSingleFlipView_Previews: PreviewProvider {
     static var previews: some View {
         let config = FCSingleFlipConfiguration(value: "6", type: .top, font: .systemFont(ofSize: 200, weight: .heavy), cornerRadius: 20)
         let config2 = FCSingleFlipConfiguration(value: "6", type: .bottom, font: .systemFont(ofSize: 200, weight: .heavy), cornerRadius: 20)
-        VStack(spacing: 0) {
-            FCSingleFlipView(configuration: config)
-            FCSingleFlipView(configuration: config2)
+        ZStack {
+            Color.background
+            VStack(spacing: 0) {
+                FCSingleFlipView(configuration: config)
+                FCSingleFlipView(configuration: config2)
+            }
         }
         .preferredColorScheme(.light)
-        VStack(spacing: 0) {
-            FCSingleFlipView(configuration: config)
-            FCSingleFlipView(configuration: config2)
+        ZStack {
+            Color.background
+            VStack(spacing: 0) {
+                FCSingleFlipView(configuration: config)
+                FCSingleFlipView(configuration: config2)
+            }
         }
         .preferredColorScheme(.dark)
     }
