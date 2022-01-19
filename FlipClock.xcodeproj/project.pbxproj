@@ -148,7 +148,6 @@
 			children = (
 				EFC6F59826678317004920E6 /* Extensions */,
 				EFC6F5A4266783FC004920E6 /* View */,
-				EFC6F59C266783AA004920E6 /* ViewModel */,
 				EFC6F573266781EA004920E6 /* FlipClockApp.swift */,
 				EFC6F574266781EA004920E6 /* ContentView.swift */,
 				EFC6F575266781EB004920E6 /* Assets.xcassets */,
@@ -191,20 +190,13 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		EFC6F59C266783AA004920E6 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				EFC6F59F266783E2004920E6 /* FCFlipClockViewModel.swift */,
-				EFC6F59E266783E2004920E6 /* FCFlipViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		EFC6F5A4266783FC004920E6 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				EFC6F5A626678421004920E6 /* FCFlipClockView.swift */,
+				EFC6F59F266783E2004920E6 /* FCFlipClockViewModel.swift */,
 				EFC6F5A726678421004920E6 /* FCFlipView.swift */,
+				EFC6F59E266783E2004920E6 /* FCFlipViewModel.swift */,
 				EFC6F5A526678421004920E6 /* FCSingleFlipView.swift */,
 			);
 			path = View;
