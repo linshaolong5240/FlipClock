@@ -9,10 +9,16 @@
 import Foundation
 import SwiftUI
 import Combine
+#if canImport(AppKit)
+typealias CrossFont = NSFont
+#endif
+#if canImport(UIKit)
+typealias CrossFont = UIFont
+#endif
 
 class FCFlipClockViewModel: ObservableObject {
     @Published var filpViewModels: [FCFlipViewModel]
-    @Published var font: UIFont {
+    @Published var font: CrossFont {
         didSet {
             filpViewModels = (0...5).map({_ in FCFlipViewModel(font: font, cornerRadius: cornerRadius)})
         }
@@ -26,7 +32,7 @@ class FCFlipClockViewModel: ObservableObject {
     private let dateFormater: DateFormatter
     private var cancellable = AnyCancellable({})
     
-    init(font: UIFont, cornerRadius: CGFloat) {
+    init(font: CrossFont, cornerRadius: CGFloat) {
         self.font = font
         self.cornerRadius = cornerRadius
         self.filpViewModels = (0...5).map({_ in FCFlipViewModel(font: font, cornerRadius: cornerRadius)})

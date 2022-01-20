@@ -9,7 +9,7 @@
 import SwiftUI
 
 class FCFlipViewModel: ObservableObject, Identifiable {
-    @Published var font: UIFont
+    @Published var font: CrossFont
     
     @Published var oldValueTopConfiguration: FCSingleFlipConfiguration
     @Published var oldValueBottomConfiguration: FCSingleFlipConfiguration
@@ -19,7 +19,7 @@ class FCFlipViewModel: ObservableObject, Identifiable {
     @Published var animateTop: Bool = false
     @Published var animateBottom: Bool = false
 
-    init(oldValue: String = "", newValue: String = "", font: UIFont, cornerRadius: CGFloat) {
+    init(oldValue: String = "", newValue: String = "", font: CrossFont, cornerRadius: CGFloat) {
         self.oldValueTopConfiguration = .init(value: oldValue, type: .top, font: font, cornerRadius: cornerRadius)
         self.oldValueBottomConfiguration = .init(value: oldValue, type: .bottom, font: font, cornerRadius: cornerRadius)
         self.newValueTopConfiguration = .init(value: newValue, type: .top, font: font, cornerRadius: cornerRadius)

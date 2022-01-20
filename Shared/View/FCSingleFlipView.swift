@@ -64,7 +64,7 @@ struct FCSingleFlipConfiguration {
     var singleFlipHeight: CGFloat
     var flipCornerRadius: CGFloat
     
-    init(value: String, type: FCFlipType, font: UIFont, cornerRadius: CGFloat) {
+    init(value: String, type: FCFlipType, font: CrossFont, cornerRadius: CGFloat) {
         self.value = value
         self.type = type
         self.font = .custom(font.fontName, size: font.pointSize).monospacedDigit()
