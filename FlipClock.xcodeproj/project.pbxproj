@@ -20,8 +20,8 @@
 		EFC6F589266781EB004920E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F574266781EA004920E6 /* ContentView.swift */; };
 		EFC6F58A266781EB004920E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC6F575266781EB004920E6 /* Assets.xcassets */; };
 		EFC6F58B266781EB004920E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC6F575266781EB004920E6 /* Assets.xcassets */; };
-		EFC6F59A26678380004920E6 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F59926678380004920E6 /* ColorExtension.swift */; };
-		EFC6F59B26678380004920E6 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F59926678380004920E6 /* ColorExtension.swift */; };
+		EFC6F59A26678380004920E6 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F59926678380004920E6 /* Color+Extension.swift */; };
+		EFC6F59B26678380004920E6 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F59926678380004920E6 /* Color+Extension.swift */; };
 		EFC6F5A0266783E2004920E6 /* FCFlipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F59E266783E2004920E6 /* FCFlipViewModel.swift */; };
 		EFC6F5A1266783E2004920E6 /* FCFlipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F59E266783E2004920E6 /* FCFlipViewModel.swift */; };
 		EFC6F5A2266783E2004920E6 /* FCFlipClockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F59F266783E2004920E6 /* FCFlipClockViewModel.swift */; };
@@ -75,7 +75,7 @@
 		EFC6F582266781EB004920E6 /* FlipClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC6F584266781EB004920E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFC6F585266781EB004920E6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		EFC6F59926678380004920E6 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		EFC6F59926678380004920E6 /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		EFC6F59E266783E2004920E6 /* FCFlipViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCFlipViewModel.swift; sourceTree = "<group>"; };
 		EFC6F59F266783E2004920E6 /* FCFlipClockViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCFlipClockViewModel.swift; sourceTree = "<group>"; };
 		EFC6F5A526678421004920E6 /* FCSingleFlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCSingleFlipView.swift; sourceTree = "<group>"; };
@@ -185,7 +185,7 @@
 		EFC6F59826678317004920E6 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				EFC6F59926678380004920E6 /* ColorExtension.swift */,
+				EFC6F59926678380004920E6 /* Color+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -340,7 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFC6F59A26678380004920E6 /* ColorExtension.swift in Sources */,
+				EFC6F59A26678380004920E6 /* Color+Extension.swift in Sources */,
 				EFC6F5A826678421004920E6 /* FCSingleFlipView.swift in Sources */,
 				EFC6F5A0266783E2004920E6 /* FCFlipViewModel.swift in Sources */,
 				EFC6F588266781EB004920E6 /* ContentView.swift in Sources */,
@@ -355,7 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFC6F59B26678380004920E6 /* ColorExtension.swift in Sources */,
+				EFC6F59B26678380004920E6 /* Color+Extension.swift in Sources */,
 				EFC6F5A926678421004920E6 /* FCSingleFlipView.swift in Sources */,
 				EFC6F5A1266783E2004920E6 /* FCFlipViewModel.swift in Sources */,
 				EFC6F589266781EB004920E6 /* ContentView.swift in Sources */,
