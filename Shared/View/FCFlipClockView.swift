@@ -15,10 +15,17 @@ struct FCFlipClockView: View {
         ZStack {
             Color.background.ignoresSafeArea()
             VStack {
-                HStack {
-                    ForEach(viewModel.filpViewModels) { item in
-                        FCFlipView(viewModel: item)
-                    }
+                HStack(spacing: viewModel.crossFont.pointSize / 10.0) {
+                    FCFlipView(viewModel: viewModel.filpViewModels[0])
+                    FCFlipView(viewModel: viewModel.filpViewModels[1])
+                    Text(":")
+                        .font(viewModel.font)
+                    FCFlipView(viewModel: viewModel.filpViewModels[2])
+                    FCFlipView(viewModel: viewModel.filpViewModels[3])
+                    Text(":")
+                        .font(viewModel.font)
+                    FCFlipView(viewModel: viewModel.filpViewModels[4])
+                    FCFlipView(viewModel: viewModel.filpViewModels[5])
                 }
             }
         }

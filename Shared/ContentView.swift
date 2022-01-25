@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    #if canImport(AppKit)
+    @StateObject var  clock: FCFlipClockViewModel = FCFlipClockViewModel(font: .systemFont(ofSize: 240, weight: .heavy), cornerRadius: 20)
+    #else
     @StateObject var  clock: FCFlipClockViewModel = FCFlipClockViewModel(font: .systemFont(ofSize: 60, weight: .heavy), cornerRadius: 20)
+    #endif
     
     var body: some View {
         FCFlipClockView(viewModel: clock)

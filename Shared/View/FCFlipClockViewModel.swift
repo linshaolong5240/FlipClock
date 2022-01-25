@@ -18,14 +18,15 @@ typealias CrossFont = UIFont
 
 class FCFlipClockViewModel: ObservableObject {
     @Published var filpViewModels: [FCFlipViewModel]
-    @Published var font: CrossFont {
+    @Published var font: Font
+    @Published var crossFont: CrossFont {
         didSet {
-            filpViewModels = (0...5).map({_ in FCFlipViewModel(font: font, cornerRadius: cornerRadius)})
+            filpViewModels = (0...5).map({_ in FCFlipViewModel(font: crossFont, cornerRadius: cornerRadius)})
         }
     }
     @Published var cornerRadius: CGFloat {
         didSet {
-            filpViewModels = (0...5).map({_ in FCFlipViewModel(font: font, cornerRadius: cornerRadius)})
+            filpViewModels = (0...5).map({_ in FCFlipViewModel(font: crossFont, cornerRadius: cornerRadius)})
         }
     }
 
@@ -33,7 +34,8 @@ class FCFlipClockViewModel: ObservableObject {
     private var cancellable = AnyCancellable({})
     
     init(font: CrossFont, cornerRadius: CGFloat) {
-        self.font = font
+        self.font = .custom(font.fontName, size: font.pointSize)
+        self.crossFont = font
         self.cornerRadius = cornerRadius
         self.filpViewModels = (0...5).map({_ in FCFlipViewModel(font: font, cornerRadius: cornerRadius)})
         dateFormater = DateFormatter()
