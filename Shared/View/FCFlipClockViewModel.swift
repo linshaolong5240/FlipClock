@@ -2,7 +2,7 @@
 //  FCFlipClockViewModel.swift
 //  FlipClock
 //
-//  Created by 林少龙 on 2020/4/15.
+//  Created by teenloong on 2020/4/15.
 //  Copyright © 2020 teeloong. All rights reserved.
 //
 

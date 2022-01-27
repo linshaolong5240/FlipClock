@@ -1,8 +1,8 @@
 //
 //  ClockWidget.swift
-//  ClockWidget
+//  ClockWidget(macOS)
 //
-//  Created by qfdev on 2021/6/2.
+//  Created by teenloong on 2022/1/27.
 //
 
 import WidgetKit
@@ -63,7 +63,7 @@ struct ClockWidget: Widget {
     }
 }
 
-struct ClockWidget_Previews: PreviewProvider {
+struct ClockWidget_macOS__Previews: PreviewProvider {
     static var previews: some View {
         ClockWidgetEntryView(entry: ClockEntry(date: Date()))
             .previewContext(WidgetPreviewContext(family: .systemSmall))

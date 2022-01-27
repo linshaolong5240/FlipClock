@@ -2,7 +2,7 @@
 //  ColorExtension.swift
 //  FlipClock
 //
-//  Created by 林少龙 on 2020/4/16.
+//  Created by teenloong on 2020/4/16.
 //  Copyright © 2020 teeloong. All rights reserved.
 //
 

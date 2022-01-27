@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,11 +12,25 @@
 		EF02B00326679355009378A2 /* ClockWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02B00226679355009378A2 /* ClockWidget.swift */; };
 		EF02B00526679355009378A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF02B00426679355009378A2 /* Assets.xcassets */; };
 		EF02B00926679355009378A2 /* ClockWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EF02AFFB26679355009378A2 /* ClockWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		EF5EE8212668C965006720C5 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5EE8202668C965006720C5 /* Date+Extension.swift */; };
 		EF5EE8232668D595006720C5 /* LESLIE.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF5EE8222668D595006720C5 /* LESLIE.ttf */; };
-		EFBBE1BC27A29032009173A5 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE1BB27A29032009173A5 /* CalendarHelper.swift */; };
-		EFBBE1BD27A29032009173A5 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE1BB27A29032009173A5 /* CalendarHelper.swift */; };
-		EFBBE1BE27A29032009173A5 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE1BB27A29032009173A5 /* CalendarHelper.swift */; };
+		EFBBE1BC27A29032009173A5 /* FCCalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE1BB27A29032009173A5 /* FCCalendarHelper.swift */; };
+		EFBBE1BD27A29032009173A5 /* FCCalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE1BB27A29032009173A5 /* FCCalendarHelper.swift */; };
+		EFBBE1BE27A29032009173A5 /* FCCalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE1BB27A29032009173A5 /* FCCalendarHelper.swift */; };
+		EFBBE1C427A294C5009173A5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF02AFFD26679355009378A2 /* WidgetKit.framework */; platformFilter = maccatalyst; };
+		EFBBE1C527A294C5009173A5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF02AFFF26679355009378A2 /* SwiftUI.framework */; platformFilter = maccatalyst; };
+		EFBBE1C827A294C5009173A5 /* ClockWidget_macOS_.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE1C727A294C5009173A5 /* ClockWidget_macOS_.swift */; };
+		EFBBE1CA27A294C7009173A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBBE1C927A294C7009173A5 /* Assets.xcassets */; };
+		EFBBE1CF27A294C7009173A5 /* ClockWidget(macOS)Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EFBBE1C327A294C5009173A5 /* ClockWidget(macOS)Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EFBBE1D527A29502009173A5 /* FCSecondsRefreshTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE1D427A29502009173A5 /* FCSecondsRefreshTimeView.swift */; };
+		EFBBE1D627A29502009173A5 /* FCSecondsRefreshTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE1D427A29502009173A5 /* FCSecondsRefreshTimeView.swift */; };
+		EFBBE1D727A29502009173A5 /* FCSecondsRefreshTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE1D427A29502009173A5 /* FCSecondsRefreshTimeView.swift */; };
+		EFBBE1D827A29502009173A5 /* FCSecondsRefreshTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE1D427A29502009173A5 /* FCSecondsRefreshTimeView.swift */; };
+		EFBBE1D927A29565009173A5 /* FCCalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE1BB27A29032009173A5 /* FCCalendarHelper.swift */; };
+		EFBBE1DA27A29581009173A5 /* LESLIE.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF5EE8222668D595006720C5 /* LESLIE.ttf */; };
+		EFBBE1DB27A29583009173A5 /* LESLIE.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF5EE8222668D595006720C5 /* LESLIE.ttf */; };
+		EFBBE1DC27A29583009173A5 /* LESLIE.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF5EE8222668D595006720C5 /* LESLIE.ttf */; };
+		EFBBE1DF27A29A83009173A5 /* LESLIE.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = EF5EE8222668D595006720C5 /* LESLIE.ttf */; };
+		EFBBE1E127A29A8F009173A5 /* LESLIE.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = EF5EE8222668D595006720C5 /* LESLIE.ttf */; };
 		EFC6F586266781EB004920E6 /* FlipClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F573266781EA004920E6 /* FlipClockApp.swift */; };
 		EFC6F587266781EB004920E6 /* FlipClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F573266781EA004920E6 /* FlipClockApp.swift */; };
 		EFC6F588266781EB004920E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F574266781EA004920E6 /* ContentView.swift */; };
@@ -45,6 +59,13 @@
 			remoteGlobalIDString = EF02AFFA26679355009378A2;
 			remoteInfo = ClockWidgetExtension;
 		};
+		EFBBE1CD27A294C7009173A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC6F56E266781EA004920E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFBBE1C227A294C5009173A5;
+			remoteInfo = "ClockWidget(macOS)Extension";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +80,37 @@
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFBBE1D327A294C7009173A5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EFBBE1CF27A294C7009173A5 /* ClockWidget(macOS)Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBBE1DE27A29A6B009173A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Fonts;
+			dstSubfolderSpec = 7;
+			files = (
+				EFBBE1DF27A29A83009173A5 /* LESLIE.ttf in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBBE1E027A29A89009173A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Fonts;
+			dstSubfolderSpec = 7;
+			files = (
+				EFBBE1E127A29A8F009173A5 /* LESLIE.ttf in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -68,9 +120,14 @@
 		EF02B00226679355009378A2 /* ClockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockWidget.swift; sourceTree = "<group>"; };
 		EF02B00426679355009378A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF02B00626679355009378A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF5EE8202668C965006720C5 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		EF5EE8222668D595006720C5 /* LESLIE.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LESLIE.ttf; sourceTree = "<group>"; };
-		EFBBE1BB27A29032009173A5 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		EFBBE1BB27A29032009173A5 /* FCCalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCCalendarHelper.swift; sourceTree = "<group>"; };
+		EFBBE1C327A294C5009173A5 /* ClockWidget(macOS)Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ClockWidget(macOS)Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBBE1C727A294C5009173A5 /* ClockWidget_macOS_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockWidget_macOS_.swift; sourceTree = "<group>"; };
+		EFBBE1C927A294C7009173A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFBBE1CB27A294C7009173A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFBBE1CC27A294C7009173A5 /* ClockWidget_macOS_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClockWidget_macOS_.entitlements; sourceTree = "<group>"; };
+		EFBBE1D427A29502009173A5 /* FCSecondsRefreshTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCSecondsRefreshTimeView.swift; sourceTree = "<group>"; };
 		EFC6F573266781EA004920E6 /* FlipClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipClockApp.swift; sourceTree = "<group>"; };
 		EFC6F574266781EA004920E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFC6F575266781EB004920E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -94,6 +151,15 @@
 			files = (
 				EF02B00026679355009378A2 /* SwiftUI.framework in Frameworks */,
 				EF02AFFE26679355009378A2 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBBE1C027A294C5009173A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBBE1C527A294C5009173A5 /* SwiftUI.framework in Frameworks */,
+				EFBBE1C427A294C5009173A5 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,8 +194,6 @@
 			children = (
 				EF02B00626679355009378A2 /* Info.plist */,
 				EF02B00226679355009378A2 /* ClockWidget.swift */,
-				EF5EE8202668C965006720C5 /* Date+Extension.swift */,
-				EF5EE8222668D595006720C5 /* LESLIE.ttf */,
 				EF02B00426679355009378A2 /* Assets.xcassets */,
 			);
 			path = ClockWidget;
@@ -138,9 +202,28 @@
 		EFBBE1BA27A29005009173A5 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				EFBBE1BB27A29032009173A5 /* CalendarHelper.swift */,
+				EFBBE1BB27A29032009173A5 /* FCCalendarHelper.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		EFBBE1C627A294C5009173A5 /* ClockWidget(macOS) */ = {
+			isa = PBXGroup;
+			children = (
+				EFBBE1CC27A294C7009173A5 /* ClockWidget_macOS_.entitlements */,
+				EFBBE1CB27A294C7009173A5 /* Info.plist */,
+				EFBBE1C727A294C5009173A5 /* ClockWidget_macOS_.swift */,
+				EFBBE1C927A294C7009173A5 /* Assets.xcassets */,
+			);
+			path = "ClockWidget(macOS)";
+			sourceTree = "<group>";
+		};
+		EFBBE1DD27A29A27009173A5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EF5EE8222668D595006720C5 /* LESLIE.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		EFC6F56D266781EA004920E6 = {
@@ -150,6 +233,7 @@
 				EFC6F57C266781EB004920E6 /* iOS */,
 				EFC6F583266781EB004920E6 /* macOS */,
 				EF02B00126679355009378A2 /* ClockWidget */,
+				EFBBE1C627A294C5009173A5 /* ClockWidget(macOS) */,
 				EF02AFFC26679355009378A2 /* Frameworks */,
 				EFC6F57B266781EB004920E6 /* Products */,
 			);
@@ -158,6 +242,7 @@
 		EFC6F572266781EA004920E6 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				EFBBE1DD27A29A27009173A5 /* Fonts */,
 				EFC6F574266781EA004920E6 /* ContentView.swift */,
 				EFC6F573266781EA004920E6 /* FlipClockApp.swift */,
 				EFC6F575266781EB004920E6 /* Assets.xcassets */,
@@ -174,6 +259,7 @@
 				EFC6F57A266781EB004920E6 /* FlipClock.app */,
 				EFC6F582266781EB004920E6 /* FlipClock.app */,
 				EF02AFFB26679355009378A2 /* ClockWidgetExtension.appex */,
+				EFBBE1C327A294C5009173A5 /* ClockWidget(macOS)Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -189,8 +275,8 @@
 		EFC6F583266781EB004920E6 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				EFC6F584266781EB004920E6 /* Info.plist */,
 				EFC6F585266781EB004920E6 /* macOS.entitlements */,
+				EFC6F584266781EB004920E6 /* Info.plist */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -210,6 +296,7 @@
 				EFC6F59F266783E2004920E6 /* FCFlipClockViewModel.swift */,
 				EFC6F5A726678421004920E6 /* FCFlipView.swift */,
 				EFC6F59E266783E2004920E6 /* FCFlipViewModel.swift */,
+				EFBBE1D427A29502009173A5 /* FCSecondsRefreshTimeView.swift */,
 				EFC6F5A526678421004920E6 /* FCSingleFlipView.swift */,
 			);
 			path = View;
@@ -233,6 +320,24 @@
 			name = ClockWidgetExtension;
 			productName = ClockWidgetExtension;
 			productReference = EF02AFFB26679355009378A2 /* ClockWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		EFBBE1C227A294C5009173A5 /* ClockWidget(macOS)Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBBE1D027A294C7009173A5 /* Build configuration list for PBXNativeTarget "ClockWidget(macOS)Extension" */;
+			buildPhases = (
+				EFBBE1BF27A294C5009173A5 /* Sources */,
+				EFBBE1C027A294C5009173A5 /* Frameworks */,
+				EFBBE1C127A294C5009173A5 /* Resources */,
+				EFBBE1E027A29A89009173A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ClockWidget(macOS)Extension";
+			productName = "ClockWidget(macOS)Extension";
+			productReference = EFBBE1C327A294C5009173A5 /* ClockWidget(macOS)Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		EFC6F579266781EB004920E6 /* FlipClock (iOS) */ = {
@@ -261,10 +366,13 @@
 				EFC6F57E266781EB004920E6 /* Sources */,
 				EFC6F57F266781EB004920E6 /* Frameworks */,
 				EFC6F580266781EB004920E6 /* Resources */,
+				EFBBE1D327A294C7009173A5 /* Embed App Extensions */,
+				EFBBE1DE27A29A6B009173A5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EFBBE1CE27A294C7009173A5 /* PBXTargetDependency */,
 			);
 			name = "FlipClock (macOS)";
 			productName = "FlipClock (macOS)";
@@ -277,11 +385,14 @@
 		EFC6F56E266781EA004920E6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					EF02AFFA26679355009378A2 = {
 						CreatedOnToolsVersion = 12.5;
+					};
+					EFBBE1C227A294C5009173A5 = {
+						CreatedOnToolsVersion = 13.2.1;
 					};
 					EFC6F579266781EB004920E6 = {
 						CreatedOnToolsVersion = 12.5;
@@ -307,6 +418,7 @@
 				EFC6F579266781EB004920E6 /* FlipClock (iOS) */,
 				EFC6F581266781EB004920E6 /* FlipClock (macOS) */,
 				EF02AFFA26679355009378A2 /* ClockWidgetExtension */,
+				EFBBE1C227A294C5009173A5 /* ClockWidget(macOS)Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -321,10 +433,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFBBE1C127A294C5009173A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBBE1DA27A29581009173A5 /* LESLIE.ttf in Resources */,
+				EFBBE1CA27A294C7009173A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFC6F578266781EB004920E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFBBE1DC27A29583009173A5 /* LESLIE.ttf in Resources */,
 				EFC6F58A266781EB004920E6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +455,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFBBE1DB27A29583009173A5 /* LESLIE.ttf in Resources */,
 				EFC6F58B266781EB004920E6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,8 +468,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF02B00326679355009378A2 /* ClockWidget.swift in Sources */,
-				EFBBE1BE27A29032009173A5 /* CalendarHelper.swift in Sources */,
-				EF5EE8212668C965006720C5 /* Date+Extension.swift in Sources */,
+				EFBBE1BE27A29032009173A5 /* FCCalendarHelper.swift in Sources */,
+				EFBBE1D727A29502009173A5 /* FCSecondsRefreshTimeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBBE1BF27A294C5009173A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBBE1D827A29502009173A5 /* FCSecondsRefreshTimeView.swift in Sources */,
+				EFBBE1D927A29565009173A5 /* FCCalendarHelper.swift in Sources */,
+				EFBBE1C827A294C5009173A5 /* ClockWidget_macOS_.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +488,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFC6F59A26678380004920E6 /* Color+Extension.swift in Sources */,
-				EFBBE1BC27A29032009173A5 /* CalendarHelper.swift in Sources */,
+				EFBBE1BC27A29032009173A5 /* FCCalendarHelper.swift in Sources */,
+				EFBBE1D527A29502009173A5 /* FCSecondsRefreshTimeView.swift in Sources */,
 				EFC6F5A826678421004920E6 /* FCSingleFlipView.swift in Sources */,
 				EFC6F5A0266783E2004920E6 /* FCFlipViewModel.swift in Sources */,
 				EFC6F588266781EB004920E6 /* ContentView.swift in Sources */,
@@ -371,7 +505,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFC6F59B26678380004920E6 /* Color+Extension.swift in Sources */,
-				EFBBE1BD27A29032009173A5 /* CalendarHelper.swift in Sources */,
+				EFBBE1BD27A29032009173A5 /* FCCalendarHelper.swift in Sources */,
+				EFBBE1D627A29502009173A5 /* FCSecondsRefreshTimeView.swift in Sources */,
 				EFC6F5A926678421004920E6 /* FCSingleFlipView.swift in Sources */,
 				EFC6F5A1266783E2004920E6 /* FCFlipViewModel.swift in Sources */,
 				EFC6F589266781EB004920E6 /* ContentView.swift in Sources */,
@@ -389,6 +524,11 @@
 			isa = PBXTargetDependency;
 			target = EF02AFFA26679355009378A2 /* ClockWidgetExtension */;
 			targetProxy = EF02B00726679355009378A2 /* PBXContainerItemProxy */;
+		};
+		EFBBE1CE27A294C7009173A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFBBE1C227A294C5009173A5 /* ClockWidget(macOS)Extension */;
+			targetProxy = EFBBE1CD27A294C7009173A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -439,6 +579,66 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFBBE1D127A294C7009173A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_ENTITLEMENTS = "ClockWidget(macOS)/ClockWidget_macOS_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ClockWidget(macOS)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ClockWidget(macOS)";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teenloong.FlipClock.ClockWidget-macOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFBBE1D227A294C7009173A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_ENTITLEMENTS = "ClockWidget(macOS)/ClockWidget_macOS_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ClockWidget(macOS)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ClockWidget(macOS)";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teenloong.FlipClock.ClockWidget-macOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -605,6 +805,7 @@
 		EFC6F592266781EB004920E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
@@ -630,6 +831,7 @@
 		EFC6F593266781EB004920E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
@@ -660,6 +862,15 @@
 			buildConfigurations = (
 				EF02B00B26679355009378A2 /* Debug */,
 				EF02B00C26679355009378A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBBE1D027A294C7009173A5 /* Build configuration list for PBXNativeTarget "ClockWidget(macOS)Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBBE1D127A294C7009173A5 /* Debug */,
+				EFBBE1D227A294C7009173A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
