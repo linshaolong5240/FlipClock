@@ -14,6 +14,9 @@
 		EF02B00926679355009378A2 /* ClockWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EF02AFFB26679355009378A2 /* ClockWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		EF5EE8212668C965006720C5 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5EE8202668C965006720C5 /* Date+Extension.swift */; };
 		EF5EE8232668D595006720C5 /* LESLIE.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF5EE8222668D595006720C5 /* LESLIE.ttf */; };
+		EFBBE1BC27A29032009173A5 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE1BB27A29032009173A5 /* CalendarHelper.swift */; };
+		EFBBE1BD27A29032009173A5 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE1BB27A29032009173A5 /* CalendarHelper.swift */; };
+		EFBBE1BE27A29032009173A5 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE1BB27A29032009173A5 /* CalendarHelper.swift */; };
 		EFC6F586266781EB004920E6 /* FlipClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F573266781EA004920E6 /* FlipClockApp.swift */; };
 		EFC6F587266781EB004920E6 /* FlipClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F573266781EA004920E6 /* FlipClockApp.swift */; };
 		EFC6F588266781EB004920E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6F574266781EA004920E6 /* ContentView.swift */; };
@@ -67,6 +70,7 @@
 		EF02B00626679355009378A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF5EE8202668C965006720C5 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		EF5EE8222668D595006720C5 /* LESLIE.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LESLIE.ttf; sourceTree = "<group>"; };
+		EFBBE1BB27A29032009173A5 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
 		EFC6F573266781EA004920E6 /* FlipClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipClockApp.swift; sourceTree = "<group>"; };
 		EFC6F574266781EA004920E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFC6F575266781EB004920E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -122,13 +126,21 @@
 		EF02B00126679355009378A2 /* ClockWidget */ = {
 			isa = PBXGroup;
 			children = (
-				EF5EE8222668D595006720C5 /* LESLIE.ttf */,
-				EF02B00226679355009378A2 /* ClockWidget.swift */,
-				EF02B00426679355009378A2 /* Assets.xcassets */,
 				EF02B00626679355009378A2 /* Info.plist */,
+				EF02B00226679355009378A2 /* ClockWidget.swift */,
 				EF5EE8202668C965006720C5 /* Date+Extension.swift */,
+				EF5EE8222668D595006720C5 /* LESLIE.ttf */,
+				EF02B00426679355009378A2 /* Assets.xcassets */,
 			);
 			path = ClockWidget;
+			sourceTree = "<group>";
+		};
+		EFBBE1BA27A29005009173A5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EFBBE1BB27A29032009173A5 /* CalendarHelper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		EFC6F56D266781EA004920E6 = {
@@ -146,11 +158,12 @@
 		EFC6F572266781EA004920E6 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				EFC6F59826678317004920E6 /* Extensions */,
-				EFC6F5A4266783FC004920E6 /* View */,
-				EFC6F573266781EA004920E6 /* FlipClockApp.swift */,
 				EFC6F574266781EA004920E6 /* ContentView.swift */,
+				EFC6F573266781EA004920E6 /* FlipClockApp.swift */,
 				EFC6F575266781EB004920E6 /* Assets.xcassets */,
+				EFC6F59826678317004920E6 /* Extensions */,
+				EFBBE1BA27A29005009173A5 /* Helper */,
+				EFC6F5A4266783FC004920E6 /* View */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -332,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF02B00326679355009378A2 /* ClockWidget.swift in Sources */,
+				EFBBE1BE27A29032009173A5 /* CalendarHelper.swift in Sources */,
 				EF5EE8212668C965006720C5 /* Date+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFC6F59A26678380004920E6 /* Color+Extension.swift in Sources */,
+				EFBBE1BC27A29032009173A5 /* CalendarHelper.swift in Sources */,
 				EFC6F5A826678421004920E6 /* FCSingleFlipView.swift in Sources */,
 				EFC6F5A0266783E2004920E6 /* FCFlipViewModel.swift in Sources */,
 				EFC6F588266781EB004920E6 /* ContentView.swift in Sources */,
@@ -356,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFC6F59B26678380004920E6 /* Color+Extension.swift in Sources */,
+				EFBBE1BD27A29032009173A5 /* CalendarHelper.swift in Sources */,
 				EFC6F5A926678421004920E6 /* FCSingleFlipView.swift in Sources */,
 				EFC6F5A1266783E2004920E6 /* FCFlipViewModel.swift in Sources */,
 				EFC6F589266781EB004920E6 /* ContentView.swift in Sources */,
@@ -382,8 +398,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D6NGHAR2FG;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ClockWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -393,6 +409,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.teenloong.FlipClock.ClockWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -405,8 +422,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D6NGHAR2FG;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ClockWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -416,6 +433,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.teenloong.FlipClock.ClockWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -541,8 +559,8 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D6NGHAR2FG;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -552,6 +570,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.teenloong.FlipClock;
 				PRODUCT_NAME = FlipClock;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -564,8 +583,8 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D6NGHAR2FG;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -575,6 +594,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.teenloong.FlipClock;
 				PRODUCT_NAME = FlipClock;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -588,9 +608,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = D6NGHAR2FG;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
@@ -601,6 +621,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.teenloong.FlipClock;
 				PRODUCT_NAME = FlipClock;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -612,9 +633,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = D6NGHAR2FG;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
@@ -625,6 +646,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.teenloong.FlipClock;
 				PRODUCT_NAME = FlipClock;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
